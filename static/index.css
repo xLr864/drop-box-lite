@@ -1,0 +1,12 @@
+
+
+#main-content{
+    padding-left: 500px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: rgb(92, 21, 110);
+}
+
+.card{
+    box-shadow: 10rem;
+}
