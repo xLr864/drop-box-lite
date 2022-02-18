@@ -12,13 +12,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form class="form-inline">
-        <div class="form-group mb-2">
-          <label for="urlink" class="sr-only">Share this URL to whom you wanted to give the file</label>
-          <input type="text" readonly class="form-control-plaintext" id="urlink" value={{url}}>
+    <form style="margin-left:10px;" class="form-inline" >
+        <div class="form-group mb-4">
+          <h2 style="margin-left:10px;">Share this URL to whom you wanted to give the file</h2>
+          <input style="border:solid"type="text" readonly class="form-control-plaintext" id="urlink" value={{url}}>
         </div>
-        <button type="submit" onclick="myFunction()"class="btn btn-primary mb-2">Copy URL</button>
-    </form>
+        <button style="margin-top:30px;margin-left:10px;" type="submit" onclick="myFunction()"class="btn btn-primary mb-2">Copy URL</button>
+      </form>
 
     <script>
         function myFunction() {
